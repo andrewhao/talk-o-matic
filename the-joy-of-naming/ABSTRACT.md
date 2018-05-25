@@ -17,3 +17,11 @@ I’ve also developed a discipline on my client teams here to use consistent, cl
 Finally - I have adapted code samples and patterns online on a Github repo that I may use to help illustrate some concepts: http://github.com/andrewhao/delorean
 
 Thank you organizers for your hard work!
+
+---
+
+## Description
+
+Successful, high-performing teams need arriving at the same understanding of an entity, together with your teammates.
+
+In this session, we will re-frame the topic through the lens of the Name. We'll learn how the powerful concept of Using The Right Name drives all the underlying concepts of DDD. Together, we'll explain a few core DDD design techniques and code patterns. We'll also investigate how this changes the way our teams communicate - and find out if clear, consistent language and naming makes our teams work more productively and harmoniously!
