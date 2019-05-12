@@ -62,3 +62,53 @@ Join me on a journey through the inner workings of a TensorFlow audio recognitio
   
   Thank you!
 
+## PyGotham
+
+### Abstract
+
+Parenthood is hard! In the months after my son arrived, I found myself struggling through depression, especially so during long episodes of infant crying. So I coped by beginning a journey to build an AI baby monitor, training a TensorFlow model to recognize and quantify my little one's cries. But this process was fraught with confusion - I had never worked with these models before. How do they work? And more importantly, how will knowing all this help me survive the travails of early parenthood?
+
+Join me on a journey through the inner workings of a TensorFlow audio recognition model. Together, we'll see how it works by walking through a CNN described from a Google research paper. We'll explore core TensorFlow model concepts of weights, biases, and convolutions and learn how they work in the process. Even if you don't have any experience in machine learning, you'll walk away with key understanding of how ML models are structured so you can apply them to your next project!
+
+### Outline
+
+* Intro: Framing the Story (1m)
+    
+    Parenthood is not butterflies and rainbows. Many of us struggle through postpartum depression. My baby's crying left me feeling helpless and incredibly sad. (Parents, you are not alone)
+
+* The general concepts of neurons in neural networks (2m)
+
+    We'll start with a quick flyover of the simple neuron model we use in most neural networks. Discussion of:
+
+    * perceptrons
+    * weights & biases
+    * layers
+    * activation functions
+
+* The technical problem: TF audio recognition (15m)
+
+    Taking an example from TF's Audio Recognition example on their website, I'll discuss how I adapted it to fit to my son's training data. I'll introduce the concept of a TF model, and start by explaining what a simple 1-layer network would look like in TF.
+   
+    Then, I'll break down the CNN model (the source code implements the model discussed in ["Convolutional Neural Networks for Small-footprint Keyword Spotting"](https://www.isca-speech.org/archive/interspeech_2015/papers/i15_1478.pdf)) line by line and use the code to explain basic TF concepts for the layperson.
+
+    My goal is to help the audience understand the nuts and bolts of TensorFlow models and help them conceptually grasp how they work.
+
+* The Insight of the Mirror Neurons (1m)
+
+    But creating this machine didn't actually help me feel better. But one thing caught my interest as I read further in the literature, and that was the mirror neuron.
+
+    Mirror neurons are hypothesized to exist throughout our brains and contribute to that sensation we feel when we watch someone else under duress as if we ourselves are there. There is speculation that mirror neurons help facilitate empathy and connection - especially between parents and their children. Could I learn something here?
+
+* Being a better parent (1m)
+
+    I realized that connection and empathy, as exhausted as I was, were still deep in the wells of my spirit. I trained myself in those hours spent cradling him asking myself - how does this feel? What is the meaning behind his crying? Is it his discomfort, or sense of loss being displaced from the womb? And how would that understanding transform my interpretation - my classification, if you will - of these early-morning episodes?
+
+    In the same way that I trained my machine to listen to these cries and learn from them, I also needed to learn to listen to his cries and hear what he was actually saying.
+
+Thank you!
+
+### Takeaways
+
+Audiences will understand how TensorFlow models are built and learn about key methods in the tensorflow library, so they can go tinker with existing models, or create models of their own. The beginners in the audience will have a better understanding of what happens under the hood of ML models, and develop vocabulary to talk about them.
+
+This is a deeply technical talk with a mental health angle to it, too. Audience members will also hear some frank talk about mental health and depression as it relates to parenthood, and be encouraged to discuss these issues freely (and reach out for help) as well.
