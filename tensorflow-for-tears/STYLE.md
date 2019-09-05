@@ -19,6 +19,22 @@ What makes us human?
 - Touch
 
 
+Fatherhood: the brain, the heart, the gut
+
+How do convolutional neural networks model the brain?
+
+(CNN discussion)
+
+Can my stand-in brain shield me from the pain of hearing a cry?
+
+No.
+
+I was asking the wrong question
+
+Embracing the pain
+
+The hidden key - the mirror neuron
+
 ## Journey Map
 
 Move from:
