@@ -18,3 +18,9 @@ Conv2d
 BiasAdd
 Relu
 MatMul
+
+Beginner's guide to Keras:
+https://elitedatascience.com/keras-tutorial-deep-learning-in-python
+
+Josh Gordon TensorFlow talk:
+https://www.youtube.com/watch?v=9ziVGkt8Gg4
