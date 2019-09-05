@@ -24,3 +24,9 @@ https://elitedatascience.com/keras-tutorial-deep-learning-in-python
 
 Josh Gordon TensorFlow talk:
 https://www.youtube.com/watch?v=9ziVGkt8Gg4
+
+[Conv Nets: A Modular Perspective - colah's blog](https://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+
+[Keras Tutorial: The Ultimate Beginner's Guide to Deep Learning in Python](https://elitedatascience.com/keras-tutorial-deep-learning-in-python)
+
+[Stanford University CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
