@@ -72,6 +72,59 @@ Join me on a journey through the inner workings of a TensorFlow audio recognitio
 
 ### Outline
 
+- Act I: If you walk into our house at the right time, you'll find a house in chaos
+   - As parents, we would do the bedtime routine and put our child down to sleep, then... the crying would commence.
+   - Sleep training - put the child in a room and let them cry with some comforting mixed in, but reinforce that they are to stay in their bed
+   - The crying was starting to get to me; I needed some help getting insight.
+   - I thought to myself - "I know what, I'll use data to solve this problem". Having time-series information about the environment of the kid's room coupled with cry detection might let me glean some insights about the factors that cause crying!
+
+- Act II
+   - Build a Raspberry Pi device and place it in the child's room
+   - A continuous bash (UNIX) script runs in the background and continuously sends a recording up to a cloud file store (virtual machine)
+      - tools: `sox` and `arecord`
+   - Loudness alone won't solve the problem - it's inaccurate
+   - Deep learning helps solve this.
+   - Go over Convolutional Neural Networks (CNNs)
+   - _Convolution Layers_:
+      - They work by running a sliding window (a.k.a a _kernel_) across an image.
+      - They allow us to detect forms in an image that are _translationally-invariant_ - that is, that they can be moved around in the image and still be detected.
+   - _ReLU Layers_:
+      - An activation function that dictates how a signal is attenuated between different layers of a network.
+      - Stands for "Rectified Linear Unit"
+   - _Max Pooling Layer_:
+      - Is a way to simplify (downsample) the complexity of an image by choosing only a part of a subsample of a kernel.
+  - Google Research paper - Keyword Spotting
+    - cnn-trad-fpool3 architecture
+    
+    - Machine Learning Pipeline
+    - Get Data
+       - A Cronjob uploads 10-second audio clips constantly
+    - Clean Data
+       - I use scripts like `ffmpeg`, `curl` and `html`
+    - Label Data
+       - Use EchoML tool to label
+    - Train Model
+       - Execute a Python script. Your data gets divided into `test`, `training` and `validation` sets.
+    - Test/Validate Model
+       - We can use a tool like TensorBoard to visualize model performance.
+    - Deploy Model
+       - Ship the model up to production.
+       - Save the model graph as a Protobuf binary file.
+
+- Act III
+   - I got realtime data, but it didn't reveal any insights
+   - That night, my wife went in to comfort the little one and discovered that he just wanted to be with us
+   - Which made me realize - I had been so caught up with measuring the system and building the model that I forgot to actually ask myself - what does he need?
+   - if we are honest with ourselves, doesn't that happen more often than not at work?
+   - How can we keep the human input loop active in our projects, systems and models at work today?
+   - Personas - taken from UX research methodologies
+   - Keep track of people, their profiles and motivations.
+   - Get out there and talk to people so your team can have in mind the people that they are talking about
+
+
+
+### Outline 2
+
 * Intro: Framing the Story (1m)
     
     Parenthood is not butterflies and rainbows. Many of us struggle through postpartum depression. My baby's crying left me feeling helpless and incredibly sad. (Parents, you are not alone)
